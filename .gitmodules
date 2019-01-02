@@ -1,0 +1,9 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/yanyang729/yanyang729.github.io.git
+[submodule "pelican-themes"]
+	path = pelican-themes
+	url = https://github.com/yanyang729/pelican-themes.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/yanyang729/pelican-plugins.git

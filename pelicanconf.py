@@ -4,13 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Yang Yang'
 SITENAME = u"Yang Yang's Blog"
-SITEURL = 'http://localhost:8000'
 SITETITLE = AUTHOR
 SITESUBTITLE = 'MS Candidate in Data Engineering | Data Science | Full-stack Development'
 SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
+
+THEME = 'Flex'
 
 PATH = 'content'
 TIMEZONE = 'America/Halifax'
@@ -25,7 +26,7 @@ DATE_FORMATS = {
 }
 
 # USE_FOLDER_AS_CATEGORY = False
-MAIN_MENU = True
+MAIN_MENU = False
 # HOME_HIDE_TAGS = True
 
 MENUITEMS = (('Home','/index.html'),
@@ -97,22 +98,23 @@ EXTRA_PATH_METADATA = {
 
 CUSTOM_CSS = 'static/custom.css'
 
-USE_LESS = True
+USE_LESS = False
+
 
 
 # here is the ads!
-# GOOGLE_ADSENSE = {
-#     'ca_id': 'ca-pub-6625957038449899',
-#     'page_level_ads': False,
-#     'ads': {
-#         'aside': '5340595560',
-#         'main_menu': '',
-#         'index_top': '',
-#         'index_bottom': '9584371569',
-#         'article_top': '',
-#         'article_bottom': '7257980762',
-#     }
-# }
+GOOGLE_ADSENSE = {
+    'ca_id': 'ca-pub-6625957038449899',
+    'page_level_ads': False,
+    'ads': {
+        'aside': '5340595560',
+        'main_menu': '',
+        'index_top': '',
+        'index_bottom': '9584371569',
+        'article_top': '',
+        'article_bottom': '7257980762',
+    }
+}
 
 
 # Blogroll
