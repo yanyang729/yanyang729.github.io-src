@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Yang Yang'
 SITENAME = u"Yang Yang's Blog"
 SITETITLE = AUTHOR
-SITESUBTITLE = 'MS Candidate in Data Engineering | Data Science | Full-stack Development'
+SITESUBTITLE = 'Keep calm and drink coffe'
 SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
@@ -102,19 +102,19 @@ USE_LESS = False
 
 
 
-# here is the ads!
-GOOGLE_ADSENSE = {
-    'ca_id': 'ca-pub-6625957038449899',
-    'page_level_ads': False,
-    'ads': {
-        'aside': '5340595560',
-        'main_menu': '',
-        'index_top': '',
-        'index_bottom': '9584371569',
-        'article_top': '',
-        'article_bottom': '7257980762',
-    }
-}
+# # here is the ads!
+# GOOGLE_ADSENSE = {
+#     'ca_id': 'ca-pub-6625957038449899',
+#     'page_level_ads': False,
+#     'ads': {
+#         'aside': '5340595560',
+#         'main_menu': '',
+#         'index_top': '',
+#         'index_bottom': '9584371569',
+#         'article_top': '',
+#         'article_bottom': '7257980762',
+#     }
+# }
 
 
 # Blogroll
