@@ -1,5 +1,4 @@
 # Setup
----
 
 ```
 git clone https://github.com/yanyang729/yanyang729.github.io-src.git --recurse-submodules
